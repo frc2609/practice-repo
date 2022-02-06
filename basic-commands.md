@@ -4,6 +4,30 @@
 
 Credits to [FreeCodeCamp for this image](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/). If you want more in-depth detail about Git, then click the [FreeCodeCamp link](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)!
 
+# Navigating folders through terminal
+
+`dir`
+
+Lists all files and folders in the current directory.
+
+![dir command](./images/dir.png)
+
+---
+
+`cd ..`
+
+This command will move you up a level (go to parent directory)
+
+![cd .. command](./images/goto-parent.PNG)
+
+---
+
+`cd <path>`
+
+Go to a child directory (basically go into the next folder within the current directory)
+
+![cd <path> command](./images/goto-child.PNG)
+
 # Basic Commands
 
 `git clone <link>`
