@@ -54,7 +54,7 @@ Pushes the committed files to Github. If you are pushing a branch **for the firs
 
 Example: `git push -u origin fy-add-auto-code`
 
-After you've pushed the branch once, any subsequent pushes can just use `git push`.
+After you've pushed the branch once, any subsequent pushes can just use `git push` for the same branch.
 
 It is a good idea to push all your changes when you are done for the day. This acts as a backup for your code in case the files on your computer become corrupted. It also allows others to see the work you've done so if you made an important change that someone needs, then they will have access to it.
 
