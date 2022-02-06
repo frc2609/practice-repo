@@ -1,4 +1,4 @@
-# Typical Workflow
+# Git Commands Visualization
 
 ![Git workflow](https://cdn-media-1.freecodecamp.org/images/1*iL2J8k4ygQlg3xriKGimbQ.png)
 
