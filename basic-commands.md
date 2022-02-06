@@ -2,7 +2,7 @@
 
 ![Git workflow](https://cdn-media-1.freecodecamp.org/images/1*iL2J8k4ygQlg3xriKGimbQ.png)
 
-Credits to [FreeCodeCamp for this image](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/). If you want more in-depth detail about Git, then click the FreeCodeCamp link!
+Credits to [FreeCodeCamp for this image](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/). If you want more in-depth detail about Git, then click the [FreeCodeCamp link](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)!
 
 # Basic Commands
 
