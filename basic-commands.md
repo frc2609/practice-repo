@@ -50,9 +50,11 @@ Ideally, a commit should have just one change, maybe a few changes if they are s
 
 `git push`
 
-Pushes the committed files to Github. If you are pushing a branch, you will need to use `git push -u origin <branch-name>`.
+Pushes the committed files to Github. If you are pushing a branch **for the first time**, you will need to use `git push -u origin <branch-name>`.
 
 Example: `git push -u origin fy-add-auto-code`
+
+After you've pushed the branch once, any subsequent pushes can just use `git push`.
 
 It is a good idea to push all your changes when you are done for the day. This acts as a backup for your code in case the files on your computer become corrupted. It also allows others to see the work you've done so if you made an important change that someone needs, then they will have access to it.
 
@@ -60,8 +62,7 @@ It is a good idea to push all your changes when you are done for the day. This a
 
 `git pull`
 
-Pulls (gets) the newest changes from Github. You should only use this command if you are on **main** branch. 
-Make it a habit to `git pull` on main branch before you create a new branch!
+Pulls (gets) the newest changes from Github. Make it a habit to `git pull` on main branch before you create a new branch! If you are having trouble pulling, then switch to main branch and retry.
 
 ---
 
@@ -71,18 +72,19 @@ Checks the status of the changes on your current branch. For example, if you hav
 
 ---
 
-`git merge <branch-that-you-want-to-merge-into-current-branch>`
+`git merge <different-branch-that-you-want-to-merge-into-current-branch>`
 
 Example: `git merge main`
 
-This command won't be used often, but it's good to know. If you are working on your own branch (not main branch), and someone makes a change that you want in your branch, then do the following:
+This command takes all the changes from one branch and merges it into the current branch.
 
-1. Have the person push their branch to Github and open a pull request
-2. Have a mentor review the pull request and wait for the mentor to approve/merge the PR into the main branch
-3. On your computer, switch to main branch and run `git pull` to get the latest changes
-4. Switch back to the branch you were previously on and run `git merge main`
+If you are working on your own branch (not main branch), and someone makes a change that you want in your branch, then do the following:
 
-All the changes from that person should show up o your branch now!
+1. Have the person push their branch to Github
+2. Run `git pull` on your computer
+3. Run `git merge <branch-name-pushed-by-person>` NOTE: you may need to add `origin/` in front of the branch name
+
+All the changes from that person should show up on your branch now!
 
 # Common issues that may happen to you
 
