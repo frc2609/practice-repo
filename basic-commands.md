@@ -43,7 +43,8 @@ Same as `git add <filename(s)>`, except it adds **all** changed files to staging
 
 Example: `git commit -m "add autonomous code"`
 
-Commits the files in staging.
+Commits the files from staging into the branch's commit history. Commits should be easy to follow and understand. This means that each commit shouldn't be too large. 
+Ideally, a commit should have just one change, maybe a few changes if they are small and the same kind of change (like formatting the code). Just try to remember to commit small and commit often.
 
 ---
 
@@ -52,6 +53,8 @@ Commits the files in staging.
 Pushes the committed files to Github. If you are pushing a branch, you will need to use `git push -u origin <branch-name>`.
 
 Example: `git push -u origin fy-add-auto-code`
+
+It is a good idea to push all your changes when you are done for the day. This acts as a backup for your code in case the files on your computer become corrupted. It also allows others to see the work you've done so if you made an important change that someone needs, then they will have access to it.
 
 ---
 
@@ -64,7 +67,7 @@ Make it a habit to `git pull` on main branch before you create a new branch!
 
 `git status`
 
-
+Checks the status of the changes on your current branch. For example, if you have changed files in your branch and you run this command, it will tell you which files have changed.
 
 ---
 
